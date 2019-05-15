@@ -1,0 +1,4 @@
+y'a fichier chelou dans /var/mail/level05 
+
+contenu : 
+*/2 * * * * su -c "sh /usr/sbin/openarenaserver" - flag05 
