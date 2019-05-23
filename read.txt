@@ -1,4 +1,22 @@
+
+need:
+-lecteur pcap
+-gdb
+-John the ripper
+-scripts
+-cloudshark
+-dcode
+-duckduckgo
+
+
 y'a fichier chelou dans /var/mail/level05 
 
 contenu : 
 */2 * * * * su -c "sh /usr/sbin/openarenaserver" - flag05 
+
+
+mdp de flag01 dans /etc/passwd :
+42hDRfypTqqnw
+
+
+/var/lock/whoopsie....
