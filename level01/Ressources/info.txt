@@ -1,3 +1,20 @@
 Lorsque l'on lance la commande "getent passwd", on remarque une valeur étrange sur l'utilisateur flag01
 
 "flag01:42hDRfypTqqnw:3001:3001::/home/flag/flag01:/bin/bash"
+
+
+Réponse de john:
+
+Warning: detected hash type "descrypt", but the string is also recognized as "descrypt-opencl"
+Use the "--format=descrypt-opencl" option to force loading these as that type instead
+Using default input encoding: UTF-8
+Loaded 1 password hash (descrypt, traditional crypt(3) [DES 256/256 AVX2])
+Proceeding with single, rules:Single
+Press 'q' or Ctrl-C to abort, almost any other key for status
+Almost done: Processing the remaining buffered candidate passwords, if any.
+Warning: Only 135 candidates buffered for the current salt, minimum 256 needed for performance.
+Proceeding with wordlist:./password.lst, rules:Wordlist
+abcdefg          (flag01)
+1g 0:00:00:00 DONE 2/3 (2019-05-28 18:31) 100.0g/s 155000p/s 155000c/s 155000C/s dance..bigman
+Use the "--show" option to display all of the cracked passwords reliably
+Session completed
