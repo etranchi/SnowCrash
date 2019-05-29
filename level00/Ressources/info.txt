@@ -5,6 +5,6 @@ Ce fichier contient le texte ci-suit : "cdiiddwpgswtgt".
 
 https://www.dcode.fr/chiffre-cesar
 
-en testant tous les décalages possibles, on peut remarquer que le premier résultat sorti a du sens avec un décalage de 2.
+en testant tous les décalages possibles, on peut remarquer que le premier résultat sorti a du sens avec un décalage de 15.
 
 resultat : "nottoohardhere"
