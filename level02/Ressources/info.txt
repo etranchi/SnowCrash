@@ -1,0 +1,28 @@
+On voit que sur le home nous avons un fichier pcap.
+
+On peut trouver des petites info sur les packets intéressants avec tcpdump :
+tcpdump -XvvnnelA -s0 -r level02.pcap | egrep -i -B5 'pass=|pwd=|log=|login=|user=|username=|pw=|passw=|passwd= |password=|pass:|user:|username:|password:|login:|pass |user ' 
+
+-> 07:23:26.095219 08:00:27:cc:8a:1e > 00:24:1d:0f:00:ad, ethertype IPv4 (0x0800), length 79: (tos 0x0, ttl 64, id 54451, offset 0, flags [DF], proto TCP (6), length 65)
+    59.233.235.223.12121 > 59.233.235.218.39247: Flags [P.], cksum 0x279d (correct), seq 215:228, ack 186, win 453, options [nop,nop,TS val 46283874 ecr 18594183], length 13
+	0x0000:  4500 0041 d4b3 4000 4006 1677 3be9 ebdf  E..A..@.@..w;...
+	0x0010:  3be9 ebda 2f59 994f baa8 fb18 9d18 157b  ;.../Y.O.......{
+	0x0020:  8018 01c5 279d 0000 0101 080a 02c2 3c62  ....'.........<b
+	0x0030:  011b b987 000d 0a50 6173 7377 6f72 643a  .......Password:
+--
+	0x0000:  4500 0057 d4cb 4000 4006 1649 3be9 ebdf  E..W..@.@..I;...
+	0x0010:  3be9 ebda 2f59 994f baa8 fb29 9d18 1590  ;.../Y.O...)....
+	0x0020:  8018 01c5 dd9c 0000 0101 080a 02c2 527d  ..............R}
+	0x0030:  011b c25e 000d 0a4c 6f67 696e 2069 6e63  ...^...Login.inc
+	0x0040:  6f72 7265 6374 0d0a 7777 7762 7567 7320  orrect..wwwbugs.
+	0x0050:  6c6f 6769 6e3a 20 
+
+https://www.cloudshark.org/captures
+
+On va utiliser Cloudshark pour avoir plus d'informations sur  les packets envoyé et reçu qui nous intéresse dans le fichier.
+
+En suivant le stream du packet concerné sur cloudshark, on remarque l'input qui a été saisie.
+
+ft_waNDReLOL
+
+
