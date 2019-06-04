@@ -20,3 +20,19 @@ mdp de flag01 dans /etc/passwd :
 
 
 /var/lock/whoopsie....
+
+
+php
+
+
+
+first replace :
+
+
+"/" grouping 	"(" : 	"\["
+							"x"
+							grouping : "("
+											.*
+										")"
+						"\]" 
+				")"

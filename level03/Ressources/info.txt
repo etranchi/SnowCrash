@@ -1,3 +1,15 @@
 On peut voir un binaire sur le home
 
+avec objdump on peut analyser ce qu'il se passe dans le binaire.
 
+on trouve :
+Contents of section .rodata:
+ 80485d8 03000000 01000200 2f757372 2f62696e  ......../usr/bin
+ 80485e8 2f656e76 20656368 6f204578 706c6f69  /env echo Exploi
+ 80485f8 74206d65 00                          t me.
+
+ utilisation d'un path
+
+update du path dans l'env
+
+flag :qi0maab88jeaj46qoumi7maus

