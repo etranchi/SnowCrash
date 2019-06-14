@@ -1,4 +1,4 @@
 - ltrace ./level08 token
 - we see a comparison between the filename token and the param strstr("token", "token") = "token"
-- let's try to fake an other file: ln -s ~/token /tmp/fakeTocken
+- let's try to fake an other file: ln -s ~/token /tmp/fakeToken
 - ./level08 /tmp/fakeTocken
