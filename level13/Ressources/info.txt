@@ -1,0 +1,7 @@
+- gdb level13
+
+- start
+
+- disass -> we see a cmp, let’s jump in valid condition
+
+- jump *[adress of the je]
