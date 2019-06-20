@@ -1,0 +1,27 @@
+- gdb /bin/getflag
+
+- here our method is to try jumping after every jmp commend
+
+- start
+
+- disass
+
+- we first find -> feulo4b72j7edeahuete3no7c then fa6v5ateaw21peobuub8ipe6s this doesn’t work
+
+- jump *0x08048de5
+
+0x08048de3 <+1181>:	jmp    0x8048e2f <main+1257>
+0x08048de5 <+1183>:	mov    0x804b060,%eax
+
+- su flag14 -> 7QiHafiNa3HVozsaXkawuYrTstxbpABHD8CPnHJ
+
+Congratulation. Type getflag to get the key and send it to me the owner of this livecd :)
+
+Result 	vvvv
+
+0x08048810 in afterSubstr ()
+(gdb) jump *0x08048de5
+Continuing at 0x8048de5.
+7QiHafiNa3HVozsaXkawuYrTstxbpABHD8CPnHJ
+
+	^^^^
